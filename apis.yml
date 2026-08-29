@@ -33,6 +33,9 @@ description: NexLP was a Chicago-based legal artificial intelligence company kno
   acquisition. This profile was surfaced as a Techstars portfolio lead and enriched via
   the pipeline; no live API, documentation, or SDK surface was found.
 url: https://raw.githubusercontent.com/api-evangelist/nexlp/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The nexlp.com domain no longer hosts a public website and exposes no developer API surface; live DNS probes show its security/abuse contact (CAA iodef) now points to revealdata.com, corroborating the "
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
